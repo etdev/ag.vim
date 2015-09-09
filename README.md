@@ -7,6 +7,9 @@ This plugin is a front for ag, A.K.A.
 be used as a replacement for 153% of the uses of `ack`.  This plugin will allow
 you to run ag from vim, and shows the results in a split window.
 
+## Differences from [rking/ag.vim](https://github.com/rking/ag.vim) ##
+`Ctrl+v` and `Ctrl-x` inside the Ag.vim buffer will open the selected file in a new vertical or horizontal tab, respectively.
+
 ## Installation ##
 
 See [the_silver_searcher's README](https://github.com/ggreer/the_silver_searcher#installing) for its installation instructions (if you haven't installed it already).
